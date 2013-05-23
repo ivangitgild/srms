@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CakePHP
 =======
 
@@ -37,3 +38,9 @@ Get Support!
 [![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
 
 ![Cake Power](https://raw.github.com/cakephp/cakephp/master/lib/Cake/Console/Templates/skel/webroot/img/cake.power.gif)
+=======
+srms
+====
+
+VSU Studen Grade Inquiry
+>>>>>>> 254f71806366843ca66a23c5b85fafaa915e0908
