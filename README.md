@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 CakePHP
 =======
 
@@ -43,4 +42,3 @@ srms
 ====
 
 VSU Studen Grade Inquiry
->>>>>>> 254f71806366843ca66a23c5b85fafaa915e0908
