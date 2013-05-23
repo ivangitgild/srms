@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'LubalinGraItcTEERegular';
+    src: url('../fonts/lubalingraitctee-webfont.eot');
+    src: url('../fonts/lubalingraitctee-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lubalingraitctee-webfont.woff') format('woff'),
+         url('../fonts/lubalingraitctee-webfont.ttf') format('truetype'),
+         url('../fonts/lubalingraitctee-webfont.svg#LubalinGraItcTEERegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*RESETS*/
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border: 0;
+}
+a{
+	text-decoration:none;
+}
+article , section , header , footer, aside {
+	display:block;
+}
+h1,h2,h3{
+	padding: 20px 0px;
+	color:#1e8f00;
+}
+
+body{
+	background-image:url('../img/bodyBackgroundPattern.png');
+	color: #666666;
+	font:14px/18px Arial,Helvetica,sans-serif;
+}
+
+body  section{
+	width:960px;
+	margin:0 auto;
+}
+
+/*HEADER*/
+header {
+	background-image:url('../img/backgroundPattern.png');
+	border-bottom: 5px solid #1e8f00;
+	height:95px;
+}
+header > section{
+	padding-top:20px;
+}
+header > section img{
+	float:left;
+}
+header > section nav ul{
+	float:right;
+}
+header > section nav ul li {
+	display: inline-block;
+	padding:bottom:33px;
+	height:75px;
+	padding-right:2px;
+}
+header > section nav ul li  a{
+	display: inline-block;
+	color: #666666;
+	font: 14px LubalinGraItcTEERegular,Arial,Helvetica,sans-serif;
+	padding:15px;
+}
+header > section nav ul li:hover , header > section nav ul li.active{
+	border-bottom: 5px solid #50ca56;
+}
+header > section nav ul li:hover a, header > section nav ul li.active a{
+	background-color: #50ca56;
+	color:#fff;
+}
+
+/*BODY*/
+body  > aside{
+	border-bottom:1px solid #CCCCCC; 
+}
+body  > aside section{
+	padding:15px;
+}
+body  > aside section a ,body  > aside section span  {
+	color:#1e8f00;
+	font-weight:bold;
+}
+/*BODY RIGHT AREA*/
+body  > section > aside{
+	min-height:250px;
+	float:left;
+	width:205px;
+	margin-top:20px;
+	padding-right:50px;
+}
+
+body  > section > aside > p{
+	width:auto;
+	text-indent:50px;
+	line-height:20px;
+	text-align:right;
+}
+
+body  > section > aside > figure img{
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 0 4px #CFCFCF;
+	padding: 5px;
+	width:200px;
+	height:120px;
+}
+
+/*BODY RIGHT AREA*/
+body  > section > article{
+	min-height:250px;
+	float:left;
+	width:685px;
+	margin-top:20px;
+	border-left:1px solid #CCCCCC;
+}
+
+/*FORM*/
+body  > section > article > aside{
+	margin:0 0 0 60px;
+}
+
+body  > section > article > aside form{
+	height:300px;
+}
+body  > section > article > aside form ul  li {
+	line-height:25px;
+	list-style:none;
+	clear:both;
+	padding:10px 0;
+}
+body  > section > article > aside form ul  li  > label{
+	width:100px;
+	display:block;
+	float:left;
+}
+body  > section > article > aside form ul  li >span{
+	width:20px;
+	display:block;
+	float:left;
+	font-weight:bold;
+}
+body  > section > article > aside form ul  li > input ,
+body  > section > article > aside form ul  li > textarea, 
+body  > section > article > aside form ul  li > select, 
+body  > section > article > aside form ul  li > section{
+	width:230px;
+	display:block;
+	float:left;
+	height:25px;
+}
+
+body  > section > article > aside form ul  li > section > div{
+	clear:right;
+	float:left;
+	margin-right:7px;
+}
+body  > section > article > aside form ul  li textarea{
+	height:50px;
+}
+
+footer{
+	text-align:right;
+	font-size:16px;
+	border-top:1px solid #CCCCCC; 
+}
+
+.button{
+	background-color:#50ca56;
+	width:100px;
+	border:none;
+	padding:5px;
+	margin:0px;
+}
+.clear{
+	clear:both;
+}

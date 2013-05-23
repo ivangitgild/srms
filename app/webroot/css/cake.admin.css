@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+img{
+	border: 0;
+}
+a{
+	text-decoration:none;
+}
+article , section , header , footer, aside {
+	display:block;
+}
+h1,h2,h3{
+	padding: 20px 0px;
+	color:#1e8f00;
+}
+body{
+	background-image:url('../img/bodyBackgroundPattern.png');
+	color: #666666;
+	font:14px/18px Arial,Helvetica,sans-serif;
+}
+body> aside, body >section{
+	float:left;
+	clear:right;
+}
+body > aside{
+	background:gray;
+	min-height:350px;
+	height:100%;
+	width:250px;
+	display:block;
+	position:relative;
+	bottom:0;
+}
+aside ul{
+	background:#CCCCCC;
+}
+aside ul li{
+	border-bottom:1px solid #DDDDDD;
+	
+}
