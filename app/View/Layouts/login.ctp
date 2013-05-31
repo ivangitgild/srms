@@ -8,7 +8,7 @@
 	echo $this->fetch('css');
 	echo $this->fetch('script'); 
     ?>
-   <link href="http://vsusrms/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+   <link href="<?= Router::url('/', true) ?>assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
         padding-top: 40px;
@@ -60,15 +60,23 @@
 
     <div class="container">
 
-      <?= $this->fetch('content'); ?>
+      <form class="form-signin" method="post">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="input-block-level" name="username" placeholder="Email address">
+        <input type="password" class="input-block-level" name="password" placeholder="Password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+      </form>
 
     </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://vsusrms/js/jquery.min.js"></script>
-    <script src="http://vsusrms/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?= Router::url('/', true) ?>js/jquery.min.js"></script>
+    <script src="<?= Router::url('/', true) ?>assets/bootstrap/js/bootstrap.min.js"></script>
     
 
   </body>
